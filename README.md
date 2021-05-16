@@ -1,5 +1,5 @@
 # SwiftUI-Planets
-A small app written in SwiftUI showcasing planets in our solar system.
+A small app built with SwiftUI showcasing planets in our solar system.
 
 ### What I Learned ###
 * How to implement a TabView to navigate through different views.
