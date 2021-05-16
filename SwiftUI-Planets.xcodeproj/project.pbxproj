@@ -11,6 +11,7 @@
 		A516DA64264F52A8009A3425 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A516DA63264F52A8009A3425 /* ContentView.swift */; };
 		A516DA66264F52A9009A3425 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A516DA65264F52A9009A3425 /* Assets.xcassets */; };
 		A516DA69264F52A9009A3425 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A516DA68264F52A9009A3425 /* Preview Assets.xcassets */; };
+		A516DA76264F6A94009A3425 /* LearnMoreButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A516DA75264F6A94009A3425 /* LearnMoreButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		A516DA65264F52A9009A3425 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A516DA68264F52A9009A3425 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A516DA6A264F52A9009A3425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A516DA75264F6A94009A3425 /* LearnMoreButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnMoreButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				A516DA61264F52A8009A3425 /* SwiftUI_PlanetsApp.swift */,
 				A516DA63264F52A8009A3425 /* ContentView.swift */,
+				A516DA75264F6A94009A3425 /* LearnMoreButtonView.swift */,
 				A516DA65264F52A9009A3425 /* Assets.xcassets */,
 				A516DA6A264F52A9009A3425 /* Info.plist */,
 				A516DA67264F52A9009A3425 /* Preview Content */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A516DA64264F52A8009A3425 /* ContentView.swift in Sources */,
+				A516DA76264F6A94009A3425 /* LearnMoreButtonView.swift in Sources */,
 				A516DA62264F52A8009A3425 /* SwiftUI_PlanetsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
