@@ -11,5 +11,5 @@ A small app built with SwiftUI showcasing planets in our solar system.
 
 ### Screenshots ###
 <img src="SwiftUI-Planets/images/neptune.png" alt="Neptune Sample" width="200"/>
-![Jupiter](SwiftUI-Planets/images/jupiter.png)
-![Jupiter-WP](SwiftUI-Planets/images/jupiter-webpage.png)
+<img src="SwiftUI-Planets/images/jupiter.png" alt="Jupiter Sample" width="200"/>
+<img src="SwiftUI-Planets/images/jupiter-webpage.png" alt="Jupiter Webpage Sample" width="200"/>
