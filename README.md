@@ -10,6 +10,6 @@ A small app built with SwiftUI showcasing planets in our solar system.
 * How to use various modifiers to create a neat UI.
 
 ### Screenshots ###
-![Neptune](/images/neptune.png)
-![Jupiter](/images/jupiter.png)
-![Jupiter-WP](/images/jupiter-webpage.png)
+![Neptune](SwiftUI-Planets/images/neptune.png)
+![Jupiter](SwiftUI-Planets/images/jupiter.png)
+![Jupiter-WP](SwiftUI-Planets/images/jupiter-webpage.png)
