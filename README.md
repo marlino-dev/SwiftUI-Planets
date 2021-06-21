@@ -8,3 +8,8 @@ A small app built with SwiftUI showcasing planets in our solar system.
 * How to use SFSafariViewController in SwiftUI through UIViewControllerRepresentable.
 * How to present the SafariView modally which takes the user to a Wikipedia article of the corresponding planet for more information.
 * How to use various modifiers to create a neat UI.
+
+### Screenshots ###
+<img src="SwiftUI-Planets/images/neptune.png" alt="Neptune Sample" width="200"/>
+<img src="SwiftUI-Planets/images/jupiter.png" alt="Jupiter Sample" width="200"/>
+<img src="SwiftUI-Planets/images/jupiter-webpage.png" alt="Jupiter Webpage Sample" width="200"/>
