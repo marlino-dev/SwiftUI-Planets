@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import SafariServices
 
 struct ContentView: View {
     
@@ -41,8 +40,6 @@ struct CardView: View {
     var description: String
     var url: String
     
-    @State var showSafari = false
-    
     var body: some View {
         ZStack {
             LinearGradient(gradient: Gradient(colors: [topColor, bottomColor]), startPoint: .top, endPoint: .bottom)
@@ -53,7 +50,6 @@ struct CardView: View {
                     .scaledToFit()
                     .shadow(color: .black, radius: 10, x: 0.0, y: 0.0)
                     .padding()
-                    
                 
                 Text(planet)
                     .font(.largeTitle)
@@ -70,42 +66,11 @@ struct CardView: View {
                     .frame(maxWidth: 480)
                 
                 Spacer()
-                Button(action: {
-                    self.showSafari = true
-                }, label: {
-                    HStack(spacing: 8) {
-                        Text("Learn More")
-                        
-                        Image(systemName: "chevron.right.circle")
-                            .imageScale(.large)
-                    }
-                    .padding()
-                    .background(Capsule().strokeBorder(Color.white, lineWidth: 1.25))
-                })
-                .sheet(isPresented: $showSafari, content: {
-                    SafariView(url: URL(string: self.url)!)
-                })
-                .padding()
-                .accentColor(.white)
+                LearnMoreButtonView(url: self.url)
                 Spacer()
-                
             }
         }
         .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .center)
         .padding(.horizontal, 20)
     }
-}
-
-struct SafariView: UIViewControllerRepresentable {
-
-    let url: URL
-
-    func makeUIViewController(context: UIViewControllerRepresentableContext<SafariView>) -> SFSafariViewController {
-        return SFSafariViewController(url: url)
-    }
-
-    func updateUIViewController(_ uiViewController: SFSafariViewController, context: UIViewControllerRepresentableContext<SafariView>) {
-
-    }
-
 }
